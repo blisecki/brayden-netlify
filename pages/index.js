@@ -10,7 +10,7 @@ export default function Home() {
   <div className="headline">
   <h1>Brayden Lisecki</h1>
   <h4>Guy on the Internet</h4>
-  <p>Writing about life.</p>
+  <p>Testing pull requests</p>
   </div>
 </div>
 </body>
