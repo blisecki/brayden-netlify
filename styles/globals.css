@@ -1,40 +1,60 @@
-html,
-body {
-  font-family: Inter;
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-body {
-  max-width: 42rem;
-  margin: auto;
-}
-img {
-  float: right;
-  border-radius: 50%;
-  height: 10rem;
-  padding: 2rem 5rem;
+#logo {
+  font-size: 1.75rem;
+  font-weight: 700;
 }
 
-nav {
-  padding: 1rem 2rem 2rem 0;
-  background-color: grey;
-}
-.headline {
-}
-.page {
-}
-ul {
-}
-
-li {
-}
+li,
 a {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
 }
 
-.top {
+body {
+  max-width: 672px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
 }
 
-.bottom {
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 5%;
 }
 
-h3 {
+.logo {
+  margin: auto auto auto 0;
+}
+
+h1 {
+  margin: auto 0;
+}
+nav {
+  margin: auto 0;
+}
+
+.nav_links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav_links li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.nav_links a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover {
+  color: #0054a6;
 }
