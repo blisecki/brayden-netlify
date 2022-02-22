@@ -1,23 +1,18 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
+
   return (
-    <div className="container">
-      <Head>
-        <title>Brayden Lisecki</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="BRAYDEN LISECKI" />
-        <p className="description">
-          coming soon
-        </p>
-        <p><a href="mailto:hello@braydenlisecki.com">hello@braydenlisecki.com</a></p>
-      </main>
-
-    </div>
+    <body>
+<div>
+  <nav>this is the nav</nav>
+  <img src="https://i.imgur.com/UElJMY1.jpg" />
+  <div className="headline">
+  <h1>Brayden Lisecki</h1>
+  <h4>Guy on the Internet</h4>
+  <p>Writing about life.</p>
+  </div>
+</div>
+</body>
   )
 }
